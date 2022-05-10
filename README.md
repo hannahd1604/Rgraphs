@@ -2,7 +2,7 @@
 Rgraphs with ggplot
 
 
-#AMOUNT OF CLONES setwd("\~/Documents/experiments/Heat shock")
+#AMOUNT OF CLONES setwd("\~/Documents/experiments/Heat shock") #does not make sense as repository is wd
 install.packages("readxl") library(readxl)
 
 dat \<- read_excel(file.choose())
